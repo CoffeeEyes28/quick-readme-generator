@@ -91,7 +91,7 @@ function generateMarkdown(data) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [Tests](#tests)
-  - [Contribuiting](#contribuiting)
+  - [Contributing](#contributing)
   - [Questions](#questions)
   
 
@@ -99,24 +99,28 @@ function generateMarkdown(data) {
   ${data.description}
 
   # Installation
-  ${data.install}
-
+  To install the required dependencies, please run the following command: 
+  <pre><code>${data.install}</code></pre>
+  
+  
   # Usage 
   ${data.use}
 
   # Tests
-  ${data.test}
+  Please use the following command for testing: 
+  <pre><code>${data.test}</code></pre>
+  
 
-  # Contribuiting 
-  Created by ${data.username}
+  # Contributing 
+  Created by <a href='https://github.com/${data.username}'>${data.username}</a>
   <br />
   Want to contribute? 
+  <br />
   ${data.contribute}
 
   # Questions
-   If you have any questions regarding this repository, open an issue or contact me directly 
-   - GitHub: <a href='https://github.com/${data.username}'>${data.username}</a> 
-   - Email: ${data.email}
+   If you have any questions regarding this repository, open an issue or contact me directly via <a href='https://github.com/${data.username}'>GitHub</a> or by email @ ${data.email}
+   
   
 `;
 
