@@ -45,6 +45,8 @@ Please run the following command to install the required depdencies:
 
 # Usage 
 The following video will demonstrate the programs functionality:
+https://user-images.githubusercontent.com/106839365/186209604-caab5b0f-7c3c-4f23-a85e-414b5cffbbe1.mp4
+
 
 
 
