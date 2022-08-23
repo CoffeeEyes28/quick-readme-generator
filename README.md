@@ -37,7 +37,7 @@ Command line based program that allows users to quickly generate a README.md fil
 
 
 # Installation 
-This repository requires Node.js! 
+This repository requires Node.js & Inquirer! 
 <br>
 Please run the following command to install the required depdencies:
 <pre><code>npm install</code></pre>
