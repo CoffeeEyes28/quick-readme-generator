@@ -64,16 +64,13 @@ function init() {
         },
     ])
     .then((data) => {
+        
      const fileName = generate(data)
      writeToFile(fileName, data)
-     console.log('README Created!')
-     
-    
-
-    
-      
-       
-
+     console.log('README.md Created!')
+    })
+    .catch((err) => {
+        console.log('Error!' + err)
     })
    
     
